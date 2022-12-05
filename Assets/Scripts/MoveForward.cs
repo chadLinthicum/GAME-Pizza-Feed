@@ -8,7 +8,10 @@ public class MoveForward : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        // Positions projectile at mid-section and in front of Player 
+        //transform.Translate(Vector3.up * Time.deltaTime * 150);
+        //transform.Translate(Vector3.forward * Time.deltaTime * 200);
+
     }
 
     // Update is called once per frame
